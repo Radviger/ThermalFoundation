@@ -82,7 +82,15 @@ public class TFCrafting {
 		}
 		/* PYROTHEUM CRAFTING */
 		if (TFProps.enablePyrotheumCrafting) {
+			addShapelessRecipe(ItemHelper.cloneStack(BlockGlass.glassCopper), "dustCopper", "dustObsidian", "dustObsidian", "dustPyrotheum");
+			addShapelessRecipe(ItemHelper.cloneStack(BlockGlass.glassTin), "dustTin", "dustObsidian", "dustObsidian", "dustPyrotheum");
+			addShapelessRecipe(ItemHelper.cloneStack(BlockGlass.glassSilver), "dustSilver", "dustObsidian", "dustObsidian", "dustPyrotheum");
 			addShapelessRecipe(ItemHelper.cloneStack(BlockGlass.glassLead), "dustLead", "dustObsidian", "dustObsidian", "dustPyrotheum");
+			addShapelessRecipe(ItemHelper.cloneStack(BlockGlass.glassAluminum), "dustAluminum", "dustObsidian", "dustObsidian", "dustPyrotheum");
+			addShapelessRecipe(ItemHelper.cloneStack(BlockGlass.glassNickel), "dustNickel", "dustObsidian", "dustObsidian", "dustPyrotheum");
+			addShapelessRecipe(ItemHelper.cloneStack(BlockGlass.glassPlatinum), "dustPlatinum", "dustObsidian", "dustObsidian", "dustPyrotheum");
+			addShapelessRecipe(ItemHelper.cloneStack(BlockGlass.glassIridium), "dustIridium", "dustObsidian", "dustObsidian", "dustPyrotheum");
+			addShapelessRecipe(ItemHelper.cloneStack(BlockGlass.glassMithril), "dustMithril", "dustObsidian", "dustObsidian", "dustPyrotheum");
 
 			addShapelessRecipe(ItemHelper.cloneStack(BlockGlass.glassCopper), "dustCopper", "blockGlassHardened", "dustObsidian", "dustPyrotheum");
 			addShapelessRecipe(ItemHelper.cloneStack(BlockGlass.glassTin), "dustTin", "blockGlassHardened", "dustObsidian", "dustPyrotheum");
@@ -93,6 +101,15 @@ public class TFCrafting {
 			addShapelessRecipe(ItemHelper.cloneStack(BlockGlass.glassPlatinum), "dustPlatinum", "blockGlassHardened", "dustObsidian", "dustPyrotheum");
 			addShapelessRecipe(ItemHelper.cloneStack(BlockGlass.glassIridium), "dustIridium", "blockGlassHardened", "dustObsidian", "dustPyrotheum");
 			addShapelessRecipe(ItemHelper.cloneStack(BlockGlass.glassMithril), "dustMithril", "blockGlassHardened", "dustObsidian", "dustPyrotheum");
+
+			addShapelessRecipe(ItemHelper.cloneStack(BlockGlassAlloy.glassSteel), "dustSteel", "dustObsidian", "dustObsidian", "dustPyrotheum");
+			addShapelessRecipe(ItemHelper.cloneStack(BlockGlassAlloy.glassElectrum), "dustElectrum", "dustObsidian", "dustObsidian", "dustPyrotheum");
+			addShapelessRecipe(ItemHelper.cloneStack(BlockGlassAlloy.glassInvar), "dustInvar", "dustObsidian", "dustObsidian", "dustPyrotheum");
+			addShapelessRecipe(ItemHelper.cloneStack(BlockGlassAlloy.glassBronze), "dustBronze", "dustObsidian", "dustObsidian", "dustPyrotheum");
+			addShapelessRecipe(ItemHelper.cloneStack(BlockGlassAlloy.glassConstantan), "dustConstantan", "dustObsidian", "dustObsidian", "dustPyrotheum");
+			addShapelessRecipe(ItemHelper.cloneStack(BlockGlassAlloy.glassSignalum), "dustSignalum", "dustObsidian", "dustObsidian", "dustPyrotheum");
+			addShapelessRecipe(ItemHelper.cloneStack(BlockGlassAlloy.glassLumium), "dustLumium", "dustObsidian", "dustObsidian", "dustPyrotheum");
+			addShapelessRecipe(ItemHelper.cloneStack(BlockGlassAlloy.glassEnderium), "dustEnderium", "dustObsidian", "dustObsidian", "dustPyrotheum");
 
 			addShapelessRecipe(ItemHelper.cloneStack(BlockGlassAlloy.glassSteel), "dustSteel", "blockGlassHardened", "dustObsidian", "dustPyrotheum");
 			addShapelessRecipe(ItemHelper.cloneStack(BlockGlassAlloy.glassElectrum), "dustElectrum", "blockGlassHardened", "dustObsidian", "dustPyrotheum");
